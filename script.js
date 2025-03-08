@@ -1,4 +1,3 @@
-// Пример: Плавное появление/скрытие блока с социальными сетями
 const socialSection = document.querySelector('.social');
 
 socialSection.addEventListener('mouseenter', () => {
