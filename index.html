@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Уралвагонзавод</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="all">
+    <!-- Шапка сайта -->
+    <div class="header">
+      <div class="header__logo">
+        <img class="uvz" src="images/logo_uvz.jpg">
+      </div>
+      <div class="header__nav"><a href="" class="nav__link">Главная</a></div>
+      <div class="header__nav"><a href="#about" class="nav__link">О нас</a></div>
+      <div class="header__nav"><a href="#news" class="nav__link">Новости</a></div>
+      <div class="header__nav"><a href="#contacts" class="nav__link">Контакты</a></div>
+      <a class="header__button" href="vac.html">Показать вакансии</a>
+      <div class="line"></div>
+    </div>
+    <div class="photos">
+      <div class="prod_card">
+        <img src="images/product.png" class="img">
+        <div class="prod_text">
+          <div class="production">
+            <p>
+              <strong>Продукция</strong>
+            </p>
+          </div>
+          <div class="description">
+            <p>
+              <span style="color: #F46B37;"><strong>Полувагон </span><span class="second">модели 12-196-02</strong></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- О нас -->
+    <div class="about">
+      <h2 class="about__title" id="about"><strong>О нас</strong></h2>
+      <div class="text">
+        <div class="main_text">
+          <p class="about__text">
+              АО «Научно-производственная корпорация «Уралвагонзавод» (УВЗ) — одно из крупнейших машиностроительных предприятий России, основанное в 1936 году. Компания специализируется на производстве железнодорожной техники, бронетанкового вооружения и другой специализированной продукции. УВЗ является ключевым игроком в отрасли, сочетая многолетний опыт, инновационные технологии и высокие стандарты качества.
+          </p>
+          <p class="about__text">
+              Сегодня УВЗ — это современное предприятие, которое активно развивается, внедряет передовые решения и вносит значительный вклад в укрепление экономики страны. Мы гордимся своей историей, стремимся к лидерству в отрасли и продолжаем создавать продукцию, отвечающую самым высоким требованиям.
+          </p>
+        </div>
+        <div class="about_photo">
+          <img class="about_foto" src="images/tank.png">
+        </div>
+      </div>
+    </div>
+    <!-- Новости -->
+    <section class="news" id="news">
+      <a href="index1.html" class="r_arrow"><img src="images/arrow-no-bg-preview (carve.photos).png" height="50"></a>
+      <h2 class="news__title"><strong>Последние новости</strong></h2>
+      <div class="news__list">
+        <div class="news__card">
+          <img src="images/news1.png" class="news_img">
+          <p>
+            Уралвагонзавод поможет производителям игрушек делать танкиКонцерн «Уралвагонзавод» и Ассоциация предприятий индустрии детских товаров (АИДТ) подписали соглашение о сотрудничестве.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="images/news2.png" class="news_img">
+          <p>
+            Когда был построен первый отечественный танк?
+            31 августа 1920 года первый серийный отечественный танк «Рено русский» завода «Красное Сормово» прошел ходовые испытания.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="images/news3.png" class="news_img">
+          <p>
+            На Уралвагонзаводе ведётся масштабное техперевооружение. 
+            С 2022 года введено в эксплуатацию порядка 500 единиц нового оборудования для изготовления спецтехники, подвижного состава и другой гражданской продукции под маркой УВЗ.
+          </p>
+        </div>
+      </div>
+      <div class="line2"></div>
+    </section>
+    <!-- Карта -->
+    <section class="map">
+      <h2 class="map__title">Мы на карте</h2>
+      <div class="map_container">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa5f5b652e53ec003025e8605d48c2dc8998cf3fff3c1b165b692c705b38da111&amp;source=constructor" width="100%" height="500px" frameborder="0"></iframe>
+      </div>
+    </section>
+    <!-- Контакты -->
+    <section class="contacts" id="contacts">
+      <!-- Первая колонка -->
+      <div class="contacts__info">
+        <h2 class="contacts__title">Телефонная справочная служба</h2>
+        <p class="contacts__text">+7 (3435) 344-209</p>
+        <p class="contacts__text">web@npk.uvz.ru</p>
+        <a href="https://vk.com/realuvznews" class="contacts__link">Вконтакте</a>
+        <a href="https://t.me/s/uvznews" class="contacts__link">Telegram</a>
+        <a href="https://ok.ru/group/54029768654988" class="contacts__link">Одноклассники</a>
+      </div>
+      <!-- Вторая колонка -->
+      <div class="contacts__info">
+        <h2 class="contacts__title">Отдел кадров</h2>
+        <p class="contacts__text">Начальник бюро по приему и учету рабочих кадров</p>
+        <p class="contacts_text_tel">+7 (3435) 344-736</p>
+        <p class="contacts__text">Начальник бюро по работе с руководителями, специалистами, служащими</p>
+        <p class="contacts_text_tel">+7 (3435) 344-264</p>
+      </div>
+      <!-- Адрес и год -->
+      <div class="contacts__footer">
+        <p class="contacts__text">622007, Свердловская область, Нижний Тагил, Восточное шоссе, 28</p>
+        <p class="contacts__text">2025</p>
+      </div>
+    </section>
+    <!-- Социальные сети -->
+    <section class="social">
+      <h2 class="social__title">Свежие новости в наших социальных сетях</h2>
+      <div class="social__icons">
+        <a href="https://vk.com/realuvznews" class="social__icon social__icon--vk"></a>
+        <a href="https://t.me/s/uvznews" class="social__icon social__icon--telegram"></a>
+        <a href="https://ok.ru/group/54029768654988" class="social__icon social__icon--ok"></a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

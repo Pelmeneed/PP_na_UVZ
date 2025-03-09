@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация на вакансию</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Регистрация на вакансию</h1>
+    <form action="submit.php" method="POST">
+      <div class="form-group">
+        <label for="first-name">Имя:</label>
+        <input type="text" id="first-name" name="first-name" required>
+      </div>
+      <div class="form-group">
+        <label for="last-name">Фамилия:</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+      <div class="form-group">
+        <label for="middle-name">Отчество:</label>
+        <input type="text" id="middle-name" name="middle-name">
+      </div>
+      <div class="form-group">
+        <label for="profession">Профессия:</label>
+        <select id="profession" name="profession" required>
+          <option value="Оператор станков с ПУ">Оператор станков с ПУ</option>
+          <option value="Слесарь">Слесарь</option>
+          <option value="Наладчик">Наладчик</option>
+          <option value="Программист">Программист</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="birthdate">Дата рождения:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Электронная почта (по желанию):</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <button type="submit" class="submit-button">Отправить</button>
+    </form>
+  </div>
+</body>
+</html>
